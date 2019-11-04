@@ -20,15 +20,15 @@ public class Loops {
         Integer width2 = input.nextInt();
         for (int i = 1; i <= height2; i++) {
             if (i == 1 || i == height2) {
-                for (int j = 1; j <= width; j++) {
+                for (int j = 1; j <= width2; j++) {
                     System.out.print("*");
                 }
                 System.out.println();
             } else {
-                for (int j = 1; j <= width; j++) {
+                for (int j = 1; j <= width2; j++) {
                     if (j == 1) {
                         System.out.print("*");
-                    } else if (j == width) {
+                    } else if (j == width2) {
                         System.out.print("*");
                     } else {
                         System.out.print(" ");
