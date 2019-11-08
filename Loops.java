@@ -26,9 +26,7 @@ public class Loops {
                 System.out.println();
             } else {
                 for (int j = 1; j <= width2; j++) {
-                    if (j == 1) {
-                        System.out.print("*");
-                    } else if (j == width2) {
+                    if (j == 1 || j == width2) {
                         System.out.print("*");
                     } else {
                         System.out.print(" ");
